@@ -154,7 +154,7 @@ You could also do::
 
    docker stop myphp
 
-.. image:: ../images/lab1-stop-container.png
+.. image:: ../images/lab1-docker-stop-container.png
    :scale: 50 %
    :align: center
 
