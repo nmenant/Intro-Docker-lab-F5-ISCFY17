@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Intro to Docker - Labs''
+project = u'Intro to Docker - Labs'
 copyright = u'2016, Eric Chen, Nicolas Menant'
 author = u'Nicolas Menant'
 
