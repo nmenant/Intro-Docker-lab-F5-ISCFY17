@@ -1,8 +1,5 @@
-Lab 1: 
-======
-
 Setting up
-----------
+==========
 
 There are GUI interfaces to manage a Docker container, but to start we are going to learn about using the command-line interface.  Most users will prefer to use command-line tools.  
 
