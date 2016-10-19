@@ -59,12 +59,12 @@ In this lab, we have already downloaded the required containers.  You can view t
 For the lab we have retrieved *php:5.6-apache* and *php:7-apache*.  These represent containers that can run PHP 5.6 / 7 running on the Apache web server (httpd).
 
 .. warning:: 
-   |For your information, if the user doesn't have the proper privileges, you'll see something like this: 
+   For your information, if the user doesn't have the proper privileges, you'll see something like this: 
    
-   |*Cannot connect to the Docker daemon. Is the docker daemon running on this host?*
+   *Cannot connect to the Docker daemon. Is the docker daemon running on this host?*
    
-   |In case of this error, you can either run as root or use the sudo command, i.e. **sudo docker images**
-   |In this lab, it should not be the case.  We have added the user *user*  to the docker unix group to enable it to be able to run these commands as a non-root user.
+   In case of this error, you can either run as root or use the sudo command, i.e. **sudo docker images**
+   In this lab, it should not be the case.  We have added the user *user*  to the docker unix group to enable it to be able to run these commands as a non-root user.
 
 Docker Run
 ----------
@@ -90,4 +90,51 @@ Visit **http://mesos-agent01:8080** in Chrome and you will see the following err
 Docker ps / inspect
 -------------------
 
+Now that you have a container running you may want to learn some additional docker commands.  
+
+.. todo::
+   Open a new terminal window on agent01 (leave the existing window open).
+
+   .. image:: ../images/agent01-putty-icon.png
+      :scale: 50 %
+      :align: center
+
+run the following command::
+
+   docker ps
+
+You should see the following: 
+
+.. image:: ../images/lab1-docker-ps.png
+   :scale: 50 %
+   :align: center
+
+Note there are two containers that are running.  The PHP container that you launched and a *registry* container that will be used later in this lab.
+
+Note the 'Container ID' and 'Ports' columns.  The 'Container ID' represents a unique identifier that you can use to manage individual containers and the 'Ports' columns lists what the current port forwarding mappings are::  
+
+   Highlight the 'Container ID' for the PHP container (this will place the value into your copy and paste buffer - if you double click on the ID, Putty  will automatically highlight it).
+
+.. image:: ../images/lab1-docker-ps-highlight-ID.png
+   :scale: 50%
+   :align: center
+
+
+Use this to run the command::
+
+   docker inspect [CONTAINER ID]
+
+or you can simply run::
+
+   docker inspect myphp 
+
+This provides a large amount of detailed data about a container that can be useful if you need to troubleshoot any problems.
+
+.. image:: ../images/lab1-docker-inspect.png
+
+Now run::
+
+   docker logs myphp
+
+This will output the logs from the container (this should match what you see in the other terminal open where we started this container).
 
