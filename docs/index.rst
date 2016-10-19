@@ -23,6 +23,7 @@ Contents:
 
    getting-started/intro
    getting-started/topology
+   getting-starting/connecting-to-udf
 
 .. toctree::
    :maxdepth: 2
