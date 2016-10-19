@@ -29,6 +29,7 @@ Contents:
    :maxdepth: 2
    :caption: Labs
 
+   labs/setting-up
    labs/lab1
    labs/lab2
    labs/lab3

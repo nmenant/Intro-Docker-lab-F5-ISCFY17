@@ -10,16 +10,19 @@ If you are running this on your own, find the 'F5 CSI Marathon/Mesosâ' blueprint
 
 .. image:: ../images/Blueprint.png
    :scale: 50 %
+   :align: center
 
 If this is part of a class find the appropriate class under Courses
 
 .. image:: ../images/Select-Course.png
    :scale: 50 %
+   :align: center
 
 and click on 'Join Session'
 
 .. image:: ../images/Join-Course.png
    :scale: 50 %
+   :align: center
 
 Access your environment
 -----------------------
@@ -28,12 +31,14 @@ Once your environment is started, find the 'win7' component under 'Components' a
 
 .. image:: ../images/Launch-RDP.png
    :scale: 50%
+   :align: center
 
 Click on the shortcut that got downloaded and it should open your RDP session. The credentials to use are user/user.
 
 *If you have trouble reading the text please see optional directions for changing text size in the Appendix.*
 
 .. warning:: For MAC user, it is recommended to use Microsoft Remote Desktop. It is available in the App store (FREE).
+   
    .. image: ../images/icon-RDP.png
    
 
@@ -44,9 +49,11 @@ Click on the shortcut that got downloaded and it should open your RDP session. T
    * Click on 'Region and Language' option in the search list
    .. image:: ../images/select-region-language.png
       :scale: 50 %
+
    * Select the 'Keyboards and Languages' tab and click on 'Change keyboards'
    .. image:: ../images/select-change-keyboard.png
       :scale: 50 %
+
    * Add the language you want to have for your keyboard mapping
 
 
