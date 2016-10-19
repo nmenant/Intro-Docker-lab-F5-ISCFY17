@@ -13,8 +13,8 @@ You should see a large terminal window.  If the Text is too small; please visit 
 
 You should be automatically logged in. If not, use the following credentials: 
 
-*Login: user 
-*Password: user
+* Login: user 
+* Password: user
 
 .. image: ../images/putty-session-agent01.png
    :scale: 50%
