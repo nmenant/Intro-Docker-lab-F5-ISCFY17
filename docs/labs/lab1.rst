@@ -3,7 +3,7 @@ Lab 1: Run a container
 
 All commands from this lab will also be provided as a text file.  You may want to download this file first and copy-and-paste the following commands. the commands are in a file on your desktop called *Intro to Docker.sh*. You may edit it by doing a right click on edit and select *Edit with Notepad++*
 
-.. image: ../images/Intro-docker-cmds.png
+.. image:: ../images/Intro-docker-cmds.png
    :scale: 50 %
    :align: center
 
@@ -18,7 +18,7 @@ Goals of the lab
 The legacy Application
 ----------------------
 
-One of the use-cases for utilizing containers is to migrate an existing on-premises application to first run in a container and eventually migrate the container to run in a public cloud environment.  The first lab will migrate the existing app that is running at: http://mesos-agent01/
+One of the use-cases for utilizing containers is to migrate an existing on-premises application to first run in a container and eventually migrate the container to run in a public cloud environment.  The first lab will migrate the existing app that is running at: *http://mesos-agent01/*
 
 Launch Chrome and visit **http://mesos-agent01** (make sure to enter *http://*)
 
@@ -60,7 +60,9 @@ For the lab we have retrieved *php:5.6-apache* and *php:7-apache*.  These repres
 
 .. warning:: 
    |For your information, if the user doesn't have the proper privileges, you'll see something like this: 
+   
    |*Cannot connect to the Docker daemon. Is the docker daemon running on this host?*
+   
    |In case of this error, you can either run as root or use the sudo command, i.e. **sudo docker images**
    |In this lab, it should not be the case.  We have added the user *user*  to the docker unix group to enable it to be able to run these commands as a non-root user.
 
