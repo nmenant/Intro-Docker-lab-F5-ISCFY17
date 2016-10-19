@@ -42,7 +42,8 @@ Click on the shortcut that got downloaded and it should open your RDP session. T
 
 .. topic:: Change keyboard input
 
-   The default keyboard mapping is set to english. If you need to change it, here is the method:
+   The default keyboard mapping is set to english. If you need to change it, here is the method
+   
    * Click on the start menu button and type 'Region' in the search field.
    * Click on 'Region and Language' option in the search list
    
