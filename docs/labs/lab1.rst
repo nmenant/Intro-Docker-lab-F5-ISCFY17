@@ -138,3 +138,57 @@ Now run::
 
 This will output the logs from the container (this should match what you see in the other terminal open where we started this container).
 
+
+Docker stop
+-----------
+
+There are two ways that you can stop the container that we started earlier.  Either type **CTRL+C** to terminate the running container (from the window that you originally started it).
+
+.. image:: ../images/lab1-kill-container.png
+   :scale: 50 %
+   :align: center
+
+Note that the web server logs are output to the screen (vs. a log file).  
+
+You could also do::
+
+   docker stop myphp
+
+.. image:: ../images/lab1-stop-container.png
+   :scale: 50 %
+   :align: center
+
+If you run this command, you willl see that we got our prompt back in the other terminal session since we stopped this process. 
+
+If you run::
+
+   docker ps 
+
+you will no longer see *myphp* running. 
+
+Run::
+   
+   docker ps
+   docker ps -a
+   docker rm myphp
+   docker ps -a
+
+**Docker ps** only shows running containers.  Adding '-a' will show stopped containers and 'rm' will remove a stopped container.
+
+.. image:: ../images/lab1-ps-no-container.png
+   :scale: 50 %
+   :align: center
+
+.. image:: ../images/lab1-docker-ps-a-option.png
+   :scale: 50 %
+   :align: center
+
+.. image:: ../images/lab1-docker-rm-container.png
+   :scale: 50 %
+   :align: center
+
+.. image:: ../images/lab1-docker-ps-a-empty.png
+   :scale: 50 %
+   :align: center
+
+
