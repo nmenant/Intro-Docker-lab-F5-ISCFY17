@@ -66,5 +66,28 @@ For the lab we have retrieved *php:5.6-apache* and *php:7-apache*.  These repres
    |In case of this error, you can either run as root or use the sudo command, i.e. **sudo docker images**
    |In this lab, it should not be the case.  We have added the user *user*  to the docker unix group to enable it to be able to run these commands as a non-root user.
 
+Docker Run
+----------
+
+The community PHP container by default does not have any content.  You can verify this by running::
+
+  docker run -p 8080:80 --name myphp php:5.6-apache
+
+This command will start the PHP 5.6 container.  Some of the options we specified: 
+
+* The '-p 8080:80' indicates that we want to create a port forwarding rule to map the host port '8080' to the container port 80 (more about container networking later in the lab).  
+* The '--name myphp' is used to name the container.  This is not required, but will make future steps in the lab easier.
+
+.. warning::
+   You will see that you don't get a prompt back. This is expected. We just launched the container in foreground. 
+
+Visit **http://mesos-agent01:8080** in Chrome and you will see the following error page (expected).
+
+.. image:: ../images/lab1-access-agent01-8080-forbidden.png
+   :scale: 50 %
+   :align: center
+
+Docker ps / inspect
+-------------------
 
 
