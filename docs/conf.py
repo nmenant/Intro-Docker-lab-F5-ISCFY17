@@ -48,8 +48,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'101 Lab Mesos Marathon'
-copyright = u'2016, Nicolas Menant'
+project = u'Intro to Docker - Labs''
+copyright = u'2016, Eric Chen, Nicolas Menant'
 author = u'Nicolas Menant'
 
 # The version info for the project you're documenting, acts as replacement for
