@@ -7,4 +7,5 @@ To do the labs, we will leverage UDF and the blueprint called 'F5 CSI Marathon/M
 
 .. image:: ../images/Blueprint.png
    :scale: 50 %
+   :align: center
 
