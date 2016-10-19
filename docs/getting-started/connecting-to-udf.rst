@@ -49,9 +49,11 @@ Click on the shortcut that got downloaded and it should open your RDP session. T
    * Click on 'Region and Language' option in the search list
    .. image:: ../images/select-region-language.png
       :scale: 50 %
+
    * Select the 'Keyboards and Languages' tab and click on 'Change keyboards'
    .. image:: ../images/select-change-keyboard.png
       :scale: 50 %
+
    * Add the language you want to have for your keyboard mapping
 
 
