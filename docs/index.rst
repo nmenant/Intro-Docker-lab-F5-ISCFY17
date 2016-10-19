@@ -23,7 +23,7 @@ Contents:
 
    getting-started/intro
    getting-started/topology
-   getting-starting/connecting-to-udf
+   getting-started/connecting-to-udf
 
 .. toctree::
    :maxdepth: 2
@@ -33,6 +33,12 @@ Contents:
    labs/lab2
    labs/lab3
    labs/lab4
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Appendix
+
+   Appendix/appendix
 
 Indices and tables
 ==================
