@@ -12,6 +12,7 @@ Open a session on mesos-agent01. Double click on this icon on your desktop
 You should see a large terminal window.  If the Text is too small; please visit the Appendix section at the end of this document on changing the size of the text.
 
 You should be automatically logged in. If not, use the following credentials: 
+
 *Login: user 
 *Password: user
 
