@@ -6,11 +6,7 @@ Ephemeral ports
 
 Up to this point we have been using a static port mapping of port 8080 on the host to port 80 on a container.  This works OK for a limited use-case, but generally you should not expect a container’s port binding to be static.  
 
-.. todo::
-
-   Connect to agent01 via putty (use shortcut on Desktop)
-
-Run
+Connect to **mesos-agent01** via putty (use shortcut on Desktop) and run:
 
 ::
  
@@ -49,11 +45,7 @@ Linux Bridge Network
 
 From the previous labs you may have noticed that on both mesos-agent01 and mesos-agent02 the container is running in the 172.17.0.0/16 network.  By default Docker will create a Linux Bridge network on the host called *docker0*.  
 
-.. todo:: 
-
-   Connect via putty to mesos-agent01
-
-Run:
+Connect via putty to *mesos-agent01* and run:
 
 ::
 
@@ -75,9 +67,7 @@ If you remember, agent01 interface eth1 has the IP of 10.1.20.101
 
 Let’s create a route on our windows client so that all traffic related to the container’s network is sent to our agent01 interface: 
 
-.. todo::
-
-   Open a Windows terminal window (you have a shortcut on your desktop)
+Open a **Windows terminal window** (you have a shortcut on your desktop)
 
 .. image:: ../images/lab4-linuxbridgenetwork-cmd-shortcut.png
    :align: center
