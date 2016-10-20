@@ -45,7 +45,7 @@ Linux Bridge Network
 
 From the previous labs you may have noticed that on both mesos-agent01 and mesos-agent02 the container is running in the 172.17.0.0/16 network.  By default Docker will create a Linux Bridge network on the host called *docker0*.  
 
-Connect via putty to *mesos-agent01* and run:
+Connect via putty to **mesos-agent01** and run:
 
 ::
 
