@@ -60,7 +60,6 @@ Run:
    ifconfig docker0
 
 .. image:: ../images/lab4-linuxbridgenetwork-ifconfig-docker0.png
-   :scale: 50 %
    :align: center
 
 From Chrome visit **http://mesos-agent01:[PORT VALUE]** (port value from last lab step) and record what the Server IP value is. 
@@ -72,7 +71,6 @@ From Chrome visit **http://mesos-agent01:[PORT VALUE]** (port value from last la
 If you remember, agent01 interface eth1 has the IP of 10.1.20.101
 
 .. image:: ../images/lab4-linuxbridgenetwork-ifconfig-eth1.png
-   :scale: 50 %
    :align: center
 
 Let’s create a route on our windows client so that all traffic related to the container’s network is sent to our agent01 interface: 
@@ -159,11 +157,9 @@ Here you will see:
 * IPv4/v6 addresses that have been associated with each container
 
 .. image:: ../images/lab4-dockerandnetworking-docker-network-inspect-cmd.png
-   :scale: 50 %
    :align: center
 
 .. image:: ../images/lab4-dockerandnetworking-docker-network-inspect-cmd2.png
-   :scale: 50 %
    :align: center
 
 More advanced examples of Docker networking include *Docker Swarm* that utilizes its own SDN to provide multi-host Docker networking.  The Kubernetes project utilizes flanneld for mutli-host Docker networking that can leverage *host-gw* (basic L2/L3), UDP packet encapsulation, or VXLAN.
