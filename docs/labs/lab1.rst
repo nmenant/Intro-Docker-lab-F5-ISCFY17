@@ -106,7 +106,6 @@ run the following command::
 You should see the following: 
 
 .. image:: ../images/lab1-docker-ps.png
-   :scale: 50 %
    :align: center
 
 Note there are two containers that are running.  The PHP container that you launched and a *registry* container that will be used later in this lab.

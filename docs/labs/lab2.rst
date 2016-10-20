@@ -84,7 +84,6 @@ Back to your terminal window (on **mesos-agent01**), run the following commands 
    pwd
 
 .. image:: ../images/lab2-mycontainer-directory.png
-   :scale: 50 %
    :align: center
 
 ::
@@ -96,7 +95,6 @@ Back to your terminal window (on **mesos-agent01**), run the following commands 
    Note the '.' at the end of the command.
 
 .. image:: ../images/lab2-docker-build-cmd.png
-   :scale: 50 %
    :align: center
 
 
