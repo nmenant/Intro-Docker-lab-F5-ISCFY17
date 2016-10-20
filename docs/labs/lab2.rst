@@ -93,7 +93,7 @@ Back to your terminal window (on **mesos-agent01**), run the following commands 
 
 .. note:: 
    
-   Note the '.' At the end of the command.
+   Note the '.' at the end of the command.
 
 .. image:: ../images/lab2-docker-build-cmd.png
    :scale: 50 %
