@@ -31,7 +31,6 @@ Run
    Note that you have two tags with the same Image ID.  
 
 .. image:: ../images/lab3-dockertag-docker-images-cmd.png
-   :scale: 50 %
    :align: center
 
 
@@ -53,7 +52,6 @@ Run
    docker run --rm -p 8080:80 --name myapp mycontainer:5.6
 
 .. image:: ../images/lab3-dockertag-docker-run-fail.png
-   :scale: 50 %
    :align: center
  
 Note that the command failed.  The container does not exist on this host.  Now run.
@@ -67,13 +65,11 @@ Note that the command failed.  The container does not exist on this host.  Now r
    The option '–-rm' specify that the container should be automatically removed with it exits 
 
 .. image:: ../images/lab3-dockertag-docker-run-success.png
-   :scale: 50 %
    :align: center
  
 The container was found on the private registry and was started.  Verify by visiting **http://mesos-agent02:8080** in Chrome.
 
 .. image:: ../images/lab3-dockertag-container-access-http.png
-   :scale: 50 %
    :align: center
  
 You can now close the agent02 terminal window.  It will not be used for the rest of the lab. 
