@@ -9,8 +9,9 @@ Now that we’ve covered the basics of running a container it is time to take a 
 Launch the 'WINSCP' shortcut that is on the Desktop.  Be sure to use this link, it should connect and place you in the Folder 'mycontainer'.
 
 .. image:: ../images/lab2-winscp-shortcut.png
+   :align: center
 
-::
+.. note::
    
    If connection/authentication fails for some reason, here are the relevant information to launch your WinScp session:
 
@@ -90,7 +91,7 @@ Back to your terminal window (on **mesos-agent01**), run the following commands 
 
    docker build -t mycontainer:5.6 .
 
-..note:: 
+.. note:: 
    
    Note the '.' At the end of the command.
 
