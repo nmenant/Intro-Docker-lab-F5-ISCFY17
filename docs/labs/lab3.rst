@@ -5,10 +5,10 @@ Docker registry
 ---------------
 
 The container is now running on mesos-agent01, but what if we want to have it run on mesos-agent02? 
-It’s possible to manually export/import the image from one host to another, but it’s more practical to use a Docker registry.
+It is possible to manually export/import the image from one host to another, but it is more practical to use a Docker registry.
 
-A Docker registry is an image repository of Docker containers.  You can “push” a container into the public Docker Hub or maintain your own private Docker registry/repository.
-For the lab we have previously created a registry that lives at “registry:5000” (running on mesos-agent01). 
+A Docker registry is an image repository of Docker containers.  You can 'ush' a container into the public Docker Hub or maintain your own private Docker registry/repository.
+For the lab we have previously created a registry that lives at 'registry:5000' (running on mesos-agent01). 
 
 .. note:: 
 
@@ -71,7 +71,22 @@ The container was found on the private registry and was started.  Verify by visi
 
 .. image:: ../images/lab3-dockertag-container-access-http.png
    :align: center
- 
+
+We are done with this container so we can delete it
+
+::
+
+   docker stop myapp
+
+   docker rm myapp
+
+Make sure that it got removed with this command
+
+::
+
+   docker ps -a
+
+
 You can now close the agent02 terminal window.  It will not be used for the rest of the lab. 
 
 
