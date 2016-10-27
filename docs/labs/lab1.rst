@@ -79,7 +79,14 @@ This command will start the PHP 5.6 container.  Some of the options we specified
 * The '--name myphp' is used to name the container.  This is not required, but will make future steps in the lab easier.
 
 .. warning::
+   You will see error messages like *Could not reliably determine the server's fully qualified domain name,..* this is expected. 
+
    You will see that you don't get a prompt back. This is expected. We just launched the container in foreground. 
+
+.. image:: ../images/lab1-start-container-front.png
+   :scale: 50%
+   :align: center
+
 
 Visit **http://mesos-agent01:8080** in Chrome and you will see the following error page (expected).
 
