@@ -28,7 +28,7 @@ Launch the 'WINSCP' shortcut that is on the Desktop.  Be sure to use this link, 
    :scale: 50 %
    :align: center
 
-First open *Dockerfile* by right-clicking on the filename and selecting *Edit*.
+On the left panel, first open *Dockerfile* by right-clicking on the filename and selecting *Edit*.
 
 .. image:: ../images/lab2-winscp-edit-local-dockerfile.png
    :scale: 50 %
@@ -40,7 +40,7 @@ First open *Dockerfile* by right-clicking on the filename and selecting *Edit*.
 
 You should see a very simple Dockerfile.  This file is used build a container.  The first line references which container we want to use as the starting container and the second line references the file that we want to copy into the new container.  
 
-Open 'index.php' and change the value of *Your Name* and click on the 'Save' button.
+On the left panel, open 'index.php' and change the value of *Your Name* and click on the 'Save' button.
 
 .. image:: ../images/lab2-edit-index.png
    :scale: 50 %
