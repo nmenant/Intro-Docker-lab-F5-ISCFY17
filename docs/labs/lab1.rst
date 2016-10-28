@@ -99,7 +99,7 @@ Docker ps / inspect
 
 Now that you have a container running you may want to learn some additional docker commands.  
 
-Open a new terminal window on agent01 (leave the existing window open).
+Open a new terminal window on agent01 (**leave the existing window open**).
 
 .. image:: ../images/agent01-putty-icon.png
       :scale: 50 %

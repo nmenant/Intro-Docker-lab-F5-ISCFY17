@@ -136,6 +136,6 @@ You are now running a supported version of PHP on the same host that was previou
 Bonus Activity
 --------------
 
-Rebuild mycontainer to run using the php:7-apache image.  PHP 5.6 is also approaching end-of-life and PHP 7 is the most recent version!
+Rebuild mycontainer to run using the php:7-apache image.  PHP 5.6 is also approaching end-of-life and PHP 7 is the most recent version! Do not delete the image mycontainer:5.6
 
 
