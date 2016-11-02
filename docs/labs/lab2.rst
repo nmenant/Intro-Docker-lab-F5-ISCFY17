@@ -22,7 +22,7 @@ Launch the 'WINSCP' shortcut that is on the Desktop.  Be sure to use this link, 
    once logged in:
    
       * on mesos-agent01: go to /home/user/mycontainer directory
-      * locally: select your c:\Users\user\mycontainer directory
+      * locally: select your c:\\Users\\user\\mycontainer directory
 
 .. image:: ../images/lab2-winscp-connected.png
    :scale: 50 %
@@ -136,6 +136,6 @@ You are now running a supported version of PHP on the same host that was previou
 Bonus Activity
 --------------
 
-Rebuild mycontainer to run using the php:7-apache image.  PHP 5.6 is also approaching end-of-life and PHP 7 is the most recent version!
+Rebuild mycontainer to run using the php:7-apache image.  PHP 5.6 is also approaching end-of-life and PHP 7 is the most recent version! Do not delete the image mycontainer:5.6
 
 
