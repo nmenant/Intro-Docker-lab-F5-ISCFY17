@@ -22,7 +22,7 @@ Launch the 'WINSCP' shortcut that is on the Desktop.  Be sure to use this link, 
    once logged in:
    
       * on mesos-agent01: go to /home/user/mycontainer directory
-      * locally: select your c:\Users\user\mycontainer directory
+      * locally: select your c:\\Users\\user\\mycontainer directory
 
 .. image:: ../images/lab2-winscp-connected.png
    :scale: 50 %
